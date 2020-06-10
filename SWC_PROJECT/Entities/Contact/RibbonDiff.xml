@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <CustomAction Id="swc.contact.Button2.CreateOrder.CustomAction" Location="Mscrm.Form.contact.MainTab.Save.Controls._children" Sequence="63">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:swc.contact.Button2.CreateOrder.Alt" Command="swc.contact.Command0.Command" Id="swc.contact.Button2.CreateOrder" Image32by32="$webresource:Sales/_imgs/SFA/CreateOrder_32.png" Image16by16="$webresource:Sales/_imgs/SFA/CreateOrder_16.png" LabelText="$LocLabels:swc.contact.Button2.CreateOrder.LabelText" Sequence="63" TemplateAlias="o1" ToolTipTitle="$LocLabels:swc.contact.Button2.CreateOrder.ToolTipTitle" ToolTipDescription="$LocLabels:swc.contact.Button2.CreateOrder.ToolTipDescription" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="swc.contact.Button4.CreateCase.CustomAction" Location="Mscrm.Form.contact.MainTab.Save.Controls._children" Sequence="63">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:swc.contact.Button4.CreateCase.Alt" Command="swc.contact.Command1.Command" Id="swc.contact.Button4.CreateCase" Image32by32="$webresource:Activities/Images/SaveAsDraft32.png" Image16by16="$webresource:Activities/Images/SaveAsDraft16.png" LabelText="$LocLabels:swc.contact.Button4.CreateCase.LabelText" Sequence="63" TemplateAlias="o1" ToolTipTitle="$LocLabels:swc.contact.Button4.CreateCase.ToolTipTitle" ToolTipDescription="$LocLabels:swc.contact.Button4.CreateCase.ToolTipDescription" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="swc.contact.Command0.Command">
+      <EnableRules />
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="createOrder" Library="$webresource:new_SWC_CreateOrder" />
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="swc.contact.Command1.Command">
+      <EnableRules />
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="CreateCase" Library="$webresource:new_SWC_CreateCase" />
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="swc.contact.Button2.CreateOrder.Alt">
+      <Titles>
+        <Title description="Create order" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="swc.contact.Button2.CreateOrder.LabelText">
+      <Titles>
+        <Title description="Create order" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="swc.contact.Button2.CreateOrder.ToolTipDescription">
+      <Titles>
+        <Title description="Create order" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="swc.contact.Button2.CreateOrder.ToolTipTitle">
+      <Titles>
+        <Title description="Create order" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="swc.contact.Button4.CreateCase.Alt">
+      <Titles>
+        <Title description="Create Case" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="swc.contact.Button4.CreateCase.LabelText">
+      <Titles>
+        <Title description="Create Case" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="swc.contact.Button4.CreateCase.ToolTipDescription">
+      <Titles>
+        <Title description="Create Case" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="swc.contact.Button4.CreateCase.ToolTipTitle">
+      <Titles>
+        <Title description="Create Case" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

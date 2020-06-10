@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>new_SWCFieldService</UniqueName>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="62" schemaName="new_SWCFieldService" />
+    <AppModuleComponent type="1" schemaName="salesorder" />
+    <AppModuleComponent type="1" schemaName="msdyn_timegroup" />
+    <AppModuleComponent type="1" schemaName="msdyn_servicetasktype" />
+    <AppModuleComponent type="1" schemaName="bookableresource" />
+    <AppModuleComponent type="1" schemaName="msdyn_workorder" />
+    <AppModuleComponent type="1" schemaName="msdyn_organizationalunit" />
+    <AppModuleComponent type="1" schemaName="msdyn_workordertype" />
+    <AppModuleComponent type="1" schemaName="msdyn_iotproviderinstance" />
+    <AppModuleComponent type="1" schemaName="bookingstatus" />
+    <AppModuleComponent type="1" schemaName="territory" />
+    <AppModuleComponent type="1" schemaName="msdyn_purchaseorderreceipt" />
+    <AppModuleComponent type="1" schemaName="opportunity" />
+    <AppModuleComponent type="1" schemaName="msdyn_timeoffrequest" />
+    <AppModuleComponent type="1" schemaName="msdyn_fieldservicesetting" />
+    <AppModuleComponent type="1" schemaName="msdyn_bookingsetupmetadata" />
+    <AppModuleComponent type="1" schemaName="msdyn_resourcerequirement" />
+    <AppModuleComponent type="1" schemaName="bookableresourcebooking" />
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="1" schemaName="msdyn_purchaseorder" />
+    <AppModuleComponent type="1" schemaName="msdyn_rtv" />
+    <AppModuleComponent type="1" schemaName="msdyn_iotalert" />
+    <AppModuleComponent type="1" schemaName="msdyn_postalcode" />
+    <AppModuleComponent type="1" schemaName="ratingmodel" />
+    <AppModuleComponent type="1" schemaName="msdyn_inventorytransfer" />
+    <AppModuleComponent type="1" schemaName="bookableresourcecategory" />
+    <AppModuleComponent type="1" schemaName="msdyn_rmasubstatus" />
+    <AppModuleComponent type="1" schemaName="msdyn_schedulingparameter" />
+    <AppModuleComponent type="1" schemaName="msdyn_iotdevice" />
+    <AppModuleComponent type="1" schemaName="msdyn_paymentterm" />
+    <AppModuleComponent type="1" schemaName="pricelevel" />
+    <AppModuleComponent type="1" schemaName="msdyn_customerasset" />
+    <AppModuleComponent type="1" schemaName="msdyn_inventoryadjustment" />
+    <AppModuleComponent type="1" schemaName="msdyn_agreementsubstatus" />
+    <AppModuleComponent type="1" schemaName="incident" />
+    <AppModuleComponent type="1" schemaName="msdyn_agreement" />
+    <AppModuleComponent type="1" schemaName="product" />
+    <AppModuleComponent type="1" schemaName="msdyn_geofence" />
+    <AppModuleComponent type="1" schemaName="msdyn_iotpropertydefinition" />
+    <AppModuleComponent type="1" schemaName="msdyn_entityconfiguration" />
+    <AppModuleComponent type="1" schemaName="msdyn_purchaseorderbill" />
+    <AppModuleComponent type="1" schemaName="msdyn_iotdevicecommanddefinition" />
+    <AppModuleComponent type="1" schemaName="msdyn_requirementstatus" />
+    <AppModuleComponent type="1" schemaName="lead" />
+    <AppModuleComponent type="1" schemaName="quote" />
+    <AppModuleComponent type="1" schemaName="msdyn_customerassetcategory" />
+    <AppModuleComponent type="1" schemaName="systemuser" />
+    <AppModuleComponent type="1" schemaName="msdyn_workordersubstatus" />
+    <AppModuleComponent type="1" schemaName="msdyn_rtvsubstatus" />
+    <AppModuleComponent type="1" schemaName="msdyn_shipvia" />
+    <AppModuleComponent type="1" schemaName="msdyn_actual" />
+    <AppModuleComponent type="1" schemaName="entitlement" />
+    <AppModuleComponent type="1" schemaName="msdyn_requirementgroup" />
+    <AppModuleComponent type="1" schemaName="msdyn_purchaseordersubstatus" />
+    <AppModuleComponent type="1" schemaName="msdyn_bookingrule" />
+    <AppModuleComponent type="1" schemaName="msdyn_priority" />
+    <AppModuleComponent type="1" schemaName="msdyn_warehouse" />
+    <AppModuleComponent type="1" schemaName="msdyn_resourcepaytype" />
+    <AppModuleComponent type="1" schemaName="msdyn_incidenttype" />
+    <AppModuleComponent type="1" schemaName="msdyn_rmareceipt" />
+    <AppModuleComponent type="1" schemaName="msdyn_productinventory" />
+    <AppModuleComponent type="1" schemaName="msdyn_iotdevicecategory" />
+    <AppModuleComponent type="1" schemaName="msdyn_taxcode" />
+    <AppModuleComponent type="1" schemaName="msdyn_timeentry" />
+    <AppModuleComponent type="1" schemaName="invoice" />
+    <AppModuleComponent type="1" schemaName="msdyn_workhourtemplate" />
+    <AppModuleComponent type="1" schemaName="msdyn_analysisjob" />
+    <AppModuleComponent type="1" schemaName="msdyn_geofenceevent" />
+    <AppModuleComponent type="1" schemaName="msdyn_rma" />
+    <AppModuleComponent type="1" schemaName="account" />
+    <AppModuleComponent type="1" schemaName="bookableresourcecharacteristic" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="SWC Field Service" languagecode="1033" />
+  </LocalizedNames>
+</AppModule>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{fbdae458-e413-4166-a5f7-4926a545ae61}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="swc_offering" select="1" icon="1" preview="1">
+        <row name="result" id="swc_offeringid">
+          <cell name="swc_offering" width="141" />
+          <cell name="swc_name" width="100" />
+          <cell name="swc_account" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="swc_offering">
+          <attribute name="swc_offeringid" />
+          <attribute name="swc_offering" />
+          <order attribute="swc_offering" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="swc_name" />
+          <attribute name="swc_account" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Offerings" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

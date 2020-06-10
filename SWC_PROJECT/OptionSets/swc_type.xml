@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="swc_type" localizedName="Type" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Type" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="116970000">
+      <labels>
+        <label description="Delivery" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="116970001">
+      <labels>
+        <label description="Query" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="116970002">
+      <labels>
+        <label description="Service" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="737670000">
+      <labels>
+        <label description="Comcast" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="737670001">
+      <labels>
+        <label description="Airtel" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="737670002">
+      <labels>
+        <label description="Vodaphone" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="737670003">
+      <labels>
+        <label description="Virgin Mobile" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="737670004">
+      <labels>
+        <label description="AT&amp;T 01" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="737670005">
+      <labels>
+        <label description="AT&amp;T 02" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="737670006">
+      <labels>
+        <label description="AT&amp;T 03" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

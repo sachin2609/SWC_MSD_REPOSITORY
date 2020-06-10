@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{b307b4bf-6071-41e6-b771-de3b87b78cc4}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="swc_region" select="1" icon="1" preview="1">
+        <row name="result" id="swc_regionid">
+          <cell name="swc_region" width="41" />
+          <cell name="swc_city" width="58" />
+          <cell name="swc_country" width="100" />
+          <cell name="swc_zipcode" width="100" />
+          <cell name="createdon" width="85" />
+          <cell name="swc_state" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="swc_region">
+          <attribute name="swc_regionid" />
+          <attribute name="swc_region" />
+          <attribute name="createdon" />
+          <order attribute="swc_region" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="swc_city" />
+          <attribute name="swc_country" />
+          <attribute name="swc_state" />
+          <attribute name="swc_zipcode" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Regions" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

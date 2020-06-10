@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{2261e01b-b7e6-433a-8d6d-f1fd6ac9f70f}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" icon="1" preview="0">
+        <row name="result" id="pricelevelid">
+          <cell name="name" width="300" />
+          <cell name="transactioncurrencyid" width="200" />
+          <cell name="begindate" width="150" />
+          <cell name="enddate" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="pricelevel">
+          <attribute name="name" />
+          <attribute name="transactioncurrencyid" />
+          <attribute name="enddate" />
+          <attribute name="begindate" />
+          <order attribute="name" descending="false" />
+          <attribute name="pricelevelid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+            <condition attribute="msdyn_entity" operator="not-in">
+              <value>192350002</value>
+              <value>192350003</value>
+            </condition>
+            <condition attribute="swc_typeofpricelist" operator="eq" value="116970000" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Price Lists" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

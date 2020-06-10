@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{cbe2bfd8-3d56-e411-80ca-00155db9b402}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" icon="1" preview="1">
+        <row name="result" id="accountid">
+          <cell name="swc_vendorname" width="100" />
+          <cell name="emailaddress2" width="131" />
+          <cell name="fax" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="account">
+          <attribute name="accountid" />
+          <attribute name="emailaddress2" />
+          <attribute name="fax" />
+          <attribute name="swc_vendorname" />
+          <filter type="and">
+            <condition attribute="swc_vendorname" operator="not-null" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Vendors" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

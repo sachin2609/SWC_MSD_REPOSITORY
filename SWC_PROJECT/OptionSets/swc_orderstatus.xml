@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="swc_orderstatus" localizedName="Order Status" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Order Status" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="116970000">
+      <labels>
+        <label description="ERO - New" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="116970001">
+      <labels>
+        <label description="ERO - Submitted" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="116970002">
+      <labels>
+        <label description="ERO - Send to Vendor" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="116970003">
+      <labels>
+        <label description="ERO - Confirmed by Vendor" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="116970004">
+      <labels>
+        <label description="ERO - Driver Started for Pickup" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="116970005">
+      <labels>
+        <label description="ERO - Closed" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="116970006">
+      <labels>
+        <label description="ERO - Cancelled" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="737670000">
+      <labels>
+        <label description="New" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="737670001">
+      <labels>
+        <label description="Pending" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="737670002">
+      <labels>
+        <label description="On Hold" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="737670003">
+      <labels>
+        <label description="In-Progress" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="737670004">
+      <labels>
+        <label description="No Money" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="737670005">
+      <labels>
+        <label description="Partial" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="737670006">
+      <labels>
+        <label description="Invoiced" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>
